@@ -72,7 +72,8 @@ npm install
 3️⃣ Create a .env file
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
+ACCESS_TOKEN_SECRET=your_access_jwt_secret
+REFRESH_TOKEN_SECRET=your_refresh_jwt_secret
 
 4️⃣ Start server
 npm start
